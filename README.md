@@ -1,13 +1,21 @@
 # Gym Single Page Application
 
-Esta es una Single Page Application (SPA) desarrollada para un gimnasio utilizando React, Astro y Tailwind CSS. La aplicación presenta varias secciones clave como servicios, testimonios, nuestro equipo y contacto.
+Esta es una pagina web desarrollada para un gimnasio utilizando React, Astro y Tailwind CSS. La aplicación presenta varias secciones clave como servicios, testimonios, nuestro equipo y contacto.
 
 ## Tecnologías utilizadas
 
-- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
-- **Astro**: Un marco de trabajo moderno para construir sitios web utilizando tecnologías web estándar.
-- **Tailwind CSS**: Un framework CSS de utilidad de primera clase para diseñar interfaces.
+- **Astro**
+- **React**
+- **Tailwind CSS**
 
-## Estructura del Proyecto
+## Screenshots
 
-El proyecto está organizado de la siguiente manera:
+Aquí algunas capturas de pantalla del sitio web:
+
+![Home Page](./src/imgs/hero.png)
+
+![Planes Page](./src/imgs/planes.png)
+
+![testimonios Page](./src/imgs/testimonios.png)
+
+![servicios Page](./src/imgs/servicios.png)
