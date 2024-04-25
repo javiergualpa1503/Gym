@@ -1,0 +1,29 @@
+---
+interface Props {
+  name: string;
+  profesion: string;
+  img: string;
+}
+
+const { name, profesion, img } = Astro.props;
+---
+
+<div class="rounded overflow-hidden shadow-lg h-full shadow-slate-400">
+  <img class="" src={img} alt={name} />
+  <div class="px-6 py-4 text-center text-black">
+    <div class="font-bold text-xl mb-2">{name}</div>
+    <p class="text-gray-700 text-base">{profesion}</p>
+    <div class="flex gap-4 mt-4 justify-center">
+      <ion-icon name="logo-facebook"></ion-icon>
+      <ion-icon name="logo-twitter"></ion-icon>
+      <ion-icon name="logo-instagram"></ion-icon>
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </div>
+  </div>
+</div>
+
+<style>
+  .white-icon {
+    color: white; /* Color blanco */
+  }
+</style>
